@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(to left, rgb(33, 33, 33), rgb(61, 58, 58));
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 6%;
+  border-radius: 15px 20px;
+  width: 27%;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+}
+.search-bar {
+  width: 100%;
+  height: 130px;
+  padding: 7% 7%;
+}
+
+input[type="text"] {
+  outline: none !important;
+  width: 70%;
+  height: 55px;
+  border-radius: 30px;
+  padding: 5px 30px;
+  border: none;
+}
+
+.content {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+}
+.weather-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  width: 6vw;
+  height: 50px;
+  outline: none !important;
+  clip-path: circle();
+}
+.weather {
+  width: 9vw;
+}
+.temp {
+  font-size: 65px;
+  font-weight: 400;
+  color: white;
+}
+.city {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+}
+.hum-wind-cont {
+  width: 100%;
+  height: 380px;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.humid-cont {
+  width: 50%;
+  height: 100%;
+  padding-left: 19px;
+  text-align: center;
+  background-image: url(../images/humidity.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.humid-percent {
+  font-size: 1.6vw;
+  font-weight: 400;
+  margin-left: 36px;
+  color: white;
+}
+.wind-percent {
+  font-size: 1.6vw;
+  font-weight: 400;
+  margin-left: 36px;
+  color: white;
+}
+.wind-cont {
+  padding-left: 19px;
+  width: 50%;
+  height: 100%;
+
+  text-align: center;
+  background-image: url(../images/wind.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.styl-cont {
+  font-size: 1.3vw;
+  font-weight: 100;
+  color: white;
+}
+
+@media screen and (max-width:426px) {
+ .container{
+  margin-top: 28%;
+  width: 78%;height: 400px;
+ }
+ .search-bar input[type="text"]{
+  width: 80%;
+ }
+ 
+ .search-bar button{
+  width: 50px;
+ }
+ .weather{
+  width: 79px;
+ }
+ .hum-wind-cont h3{
+  font-size: 20px;
+ }
+ .hum-wind-cont label{
+  font-size: 17px;
+ }
+}
