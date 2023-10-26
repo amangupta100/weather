@@ -82,7 +82,7 @@ input[type="text"] {
   height: 100%;
   padding-left: 19px;
   text-align: center;
-  background-image: url(../images/humidity.png);
+  background-image: url(./images/humidity.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -104,7 +104,7 @@ input[type="text"] {
   height: 100%;
 
   text-align: center;
-  background-image: url(../images/wind.png);
+  background-image: url(./images/wind.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
