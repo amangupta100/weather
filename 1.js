@@ -15,19 +15,19 @@ async function checkWeather(city){
     document.querySelector(".wind-percent").innerHTML = data.wind.speed + "km/h"
 
     if(data.weather[0].main =="Clouds"){
-weather_icon.src = "../images/cloud.png"
+weather_icon.src = "./images/cloud.png"
     }
     else if(data.weather[0].main =="Clear"){
-        weather_icon.src = "../images/clear.png"
+        weather_icon.src = "./images/clear.png"
     }
     else if(data.weather[0].main =="Snow"){
-        weather_icon.src = "../images/snow.png"
+        weather_icon.src = "./images/snow.png"
     }
     else if(data.weather[0].main =="Rain"){
-        weather_icon.src = "../images/rain.png"
+        weather_icon.src = "./images/rain.png"
     }
     else if(data.weather[0].main =="Drizzle"){
-        weather_icon.src = "../images/drizzle.png"
+        weather_icon.src = "./images/drizzle.png"
     }
 }
 btn.addEventListener("click",()=>{
