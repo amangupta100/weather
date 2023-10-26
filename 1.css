@@ -136,3 +136,24 @@ input[type="text"] {
   font-size: 17px;
  }
 }
+@media screen and (max-width:376px) {
+ .container{
+  width: 80%;
+ }
+ .search-bar{
+  display: flex;
+ }
+ .weather-cont .temp{
+  font-size: 51px;
+  font-weight: 530;
+ }
+ .weather-cont .city{
+  font-size: 40px;
+ }
+ .hum-wind-cont h3{
+  font-size: 18px;
+ }
+ .hum-wind-cont .styl-cont{
+  font-size: 15px;
+ }
+}
